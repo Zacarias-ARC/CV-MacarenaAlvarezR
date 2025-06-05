@@ -1,0 +1,32 @@
+body {
+margin: 0;
+padding: 0;
+}
+header{
+    background-image: url(/assets/img/ma.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
+    margin: 50px;
+    height: 500px;
+
+
+}
+.p-h{
+    display: flex;
+    justify-content: end;
+
+}
+.icon {
+    background-color: #1E1A13;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
