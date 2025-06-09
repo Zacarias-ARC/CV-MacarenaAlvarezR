@@ -10,7 +10,7 @@ padding: 0;
 .hero{
     text-align: center;
     padding: 30px;
-    background-color: #402b78;
+    background-color: #3e0660;
     color: #FFFFFF;
     margin: 24px;
 }
@@ -31,8 +31,9 @@ padding: 0;
     
 }
 .card-body{
-    background-color: #402b78;
+    background-color: #3e0660;
     color: #FFFFFF;
+    height: 300px;
 }
 
 .icon {
@@ -48,22 +49,54 @@ padding: 0;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.laboral{
-    font-size: 0.8em;
+.habilidades{
+    font-size: 25px;
     color: #FFFFFF;
-    background-color: #271752;
-    
-
+    background: #3e0660;
+    padding: 30px;
+    text-align: start;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    height: 500px;
 }
 .n-empresa{
-
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.fondo{
+    background-color: #3e0660;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 10px solid black;
 }
 .descripcion{
+    font-size: 15px;
+}
+.s-cont{
+    background-color: lightgray;
+    width: 100%;
+}
+.cont{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
 
 }
+.cont-info{
+    color: black;
+    display: block;
+    margin-left:600px;
+    font-size: 20px;
+    font-weight: 500;
 
-
-
+}
 .foot{
     background-color: #271752;
     color: #FFFFFF;
