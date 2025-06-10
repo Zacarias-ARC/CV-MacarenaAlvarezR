@@ -37,7 +37,7 @@ body {
 .card-body {
     background-color: #3e0660;
     color: #FFFFFF;
-    height: 300px;
+    height: auto;
 }
 
 .icon {
@@ -55,7 +55,7 @@ body {
 }
 
 .habilidades {
-    font-size: 25px;
+    font-size: 20px;
     color: #FFFFFF;
     background: #3e0660;
     padding: 30px;
@@ -64,7 +64,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
-    height: 500px;
+    height: 700px;
 }
 
 .n-empresa {
@@ -119,4 +119,27 @@ body {
     display: flex;
     justify-content: end;
     background-color: black;
+}
+
+
+@media (min-width:400px) {
+    .n-empresa {
+        font-size: 18px;
+    }
+
+    .descripcion {
+        font-size: 15px;
+    }
+
+    .habilidades {
+        font-size: 15px;
+        color: #FFFFFF;
+        text-align: start;
+        border-radius: 20px;
+        display: inline-block;
+        padding-top: 50px
+    }
+    .laboral{
+        width: 100%;
+    }
 }
